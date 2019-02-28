@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F749972A2227FA7F00F85E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F74997292227FA7F00F85E40 /* AppDelegate.m */; };
+		F749972D2227FA7F00F85E40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F749972C2227FA7F00F85E40 /* ViewController.m */; };
+		F74997302227FA7F00F85E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F749972E2227FA7F00F85E40 /* Main.storyboard */; };
+		F74997322227FA7F00F85E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74997312227FA7F00F85E40 /* Assets.xcassets */; };
+		F74997352227FA7F00F85E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74997332227FA7F00F85E40 /* LaunchScreen.storyboard */; };
+		F74997382227FA7F00F85E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F74997372227FA7F00F85E40 /* main.m */; };
+		F74997422227FA8000F85E40 /* SampleAnimatedButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F74997412227FA8000F85E40 /* SampleAnimatedButtonsTests.m */; };
+		F74997522227FD7200F85E40 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F749974D2227FD7100F85E40 /* RPSGame.m */; };
+		F74997532227FD7200F85E40 /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = F749974E2227FD7100F85E40 /* RPSController.m */; };
+		F74997542227FD7200F85E40 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = F74997502227FD7100F85E40 /* RPSTurn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F749973E2227FA7F00F85E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F749971D2227FA7E00F85E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74997242227FA7E00F85E40;
+			remoteInfo = SampleAnimatedButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F74997252227FA7E00F85E40 /* RockPaperScissorsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissorsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74997282227FA7F00F85E40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F74997292227FA7F00F85E40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F749972B2227FA7F00F85E40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F749972C2227FA7F00F85E40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F749972F2227FA7F00F85E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74997312227FA7F00F85E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74997342227FA7F00F85E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F74997362227FA7F00F85E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74997372227FA7F00F85E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F749973D2227FA7F00F85E40 /* RockPaperScissorsGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74997412227FA8000F85E40 /* SampleAnimatedButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAnimatedButtonsTests.m; sourceTree = "<group>"; };
+		F74997432227FA8000F85E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F749974C2227FD7100F85E40 /* RPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		F749974D2227FD7100F85E40 /* RPSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
+		F749974E2227FD7100F85E40 /* RPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
+		F749974F2227FD7100F85E40 /* RPSTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
+		F74997502227FD7100F85E40 /* RPSTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
+		F74997512227FD7200F85E40 /* RPSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSGame.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74997222227FA7E00F85E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F749973A2227FA7F00F85E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F749971C2227FA7E00F85E40 = {
+			isa = PBXGroup;
+			children = (
+				F74997272227FA7E00F85E40 /* RockPaperScissorsGame */,
+				F74997402227FA7F00F85E40 /* RockPaperScissorsGameTests */,
+				F74997262227FA7E00F85E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F74997262227FA7E00F85E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74997252227FA7E00F85E40 /* RockPaperScissorsGame.app */,
+				F749973D2227FA7F00F85E40 /* RockPaperScissorsGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74997272227FA7E00F85E40 /* RockPaperScissorsGame */ = {
+			isa = PBXGroup;
+			children = (
+				F74997282227FA7F00F85E40 /* AppDelegate.h */,
+				F74997292227FA7F00F85E40 /* AppDelegate.m */,
+				F749972B2227FA7F00F85E40 /* ViewController.h */,
+				F749972C2227FA7F00F85E40 /* ViewController.m */,
+				F749974C2227FD7100F85E40 /* RPSController.h */,
+				F749974E2227FD7100F85E40 /* RPSController.m */,
+				F74997512227FD7200F85E40 /* RPSGame.h */,
+				F749974D2227FD7100F85E40 /* RPSGame.m */,
+				F749974F2227FD7100F85E40 /* RPSTurn.h */,
+				F74997502227FD7100F85E40 /* RPSTurn.m */,
+				F749972E2227FA7F00F85E40 /* Main.storyboard */,
+				F74997312227FA7F00F85E40 /* Assets.xcassets */,
+				F74997332227FA7F00F85E40 /* LaunchScreen.storyboard */,
+				F74997362227FA7F00F85E40 /* Info.plist */,
+				F74997372227FA7F00F85E40 /* main.m */,
+			);
+			path = RockPaperScissorsGame;
+			sourceTree = "<group>";
+		};
+		F74997402227FA7F00F85E40 /* RockPaperScissorsGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F74997412227FA8000F85E40 /* SampleAnimatedButtonsTests.m */,
+				F74997432227FA8000F85E40 /* Info.plist */,
+			);
+			path = RockPaperScissorsGameTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74997242227FA7E00F85E40 /* RockPaperScissorsGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74997462227FA8000F85E40 /* Build configuration list for PBXNativeTarget "RockPaperScissorsGame" */;
+			buildPhases = (
+				F74997212227FA7E00F85E40 /* Sources */,
+				F74997222227FA7E00F85E40 /* Frameworks */,
+				F74997232227FA7E00F85E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperScissorsGame;
+			productName = SampleAnimatedButtons;
+			productReference = F74997252227FA7E00F85E40 /* RockPaperScissorsGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F749973C2227FA7F00F85E40 /* RockPaperScissorsGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74997492227FA8000F85E40 /* Build configuration list for PBXNativeTarget "RockPaperScissorsGameTests" */;
+			buildPhases = (
+				F74997392227FA7F00F85E40 /* Sources */,
+				F749973A2227FA7F00F85E40 /* Frameworks */,
+				F749973B2227FA7F00F85E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F749973F2227FA7F00F85E40 /* PBXTargetDependency */,
+			);
+			name = RockPaperScissorsGameTests;
+			productName = SampleAnimatedButtonsTests;
+			productReference = F749973D2227FA7F00F85E40 /* RockPaperScissorsGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F749971D2227FA7E00F85E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = self;
+				TargetAttributes = {
+					F74997242227FA7E00F85E40 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F749973C2227FA7F00F85E40 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F74997242227FA7E00F85E40;
+					};
+				};
+			};
+			buildConfigurationList = F74997202227FA7E00F85E40 /* Build configuration list for PBXProject "RockPaperScissorsGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F749971C2227FA7E00F85E40;
+			productRefGroup = F74997262227FA7E00F85E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74997242227FA7E00F85E40 /* RockPaperScissorsGame */,
+				F749973C2227FA7F00F85E40 /* RockPaperScissorsGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74997232227FA7E00F85E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74997352227FA7F00F85E40 /* LaunchScreen.storyboard in Resources */,
+				F74997322227FA7F00F85E40 /* Assets.xcassets in Resources */,
+				F74997302227FA7F00F85E40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F749973B2227FA7F00F85E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74997212227FA7E00F85E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F749972D2227FA7F00F85E40 /* ViewController.m in Sources */,
+				F74997532227FD7200F85E40 /* RPSController.m in Sources */,
+				F74997542227FD7200F85E40 /* RPSTurn.m in Sources */,
+				F74997382227FA7F00F85E40 /* main.m in Sources */,
+				F749972A2227FA7F00F85E40 /* AppDelegate.m in Sources */,
+				F74997522227FD7200F85E40 /* RPSGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74997392227FA7F00F85E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74997422227FA8000F85E40 /* SampleAnimatedButtonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F749973F2227FA7F00F85E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74997242227FA7E00F85E40 /* RockPaperScissorsGame */;
+			targetProxy = F749973E2227FA7F00F85E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F749972E2227FA7F00F85E40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F749972F2227FA7F00F85E40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F74997332227FA7F00F85E40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74997342227FA7F00F85E40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74997442227FA8000F85E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F74997452227FA8000F85E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74997472227FA8000F85E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/RockPaperScissorsGame/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RockPaperScissorsGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F74997482227FA8000F85E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/RockPaperScissorsGame/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RockPaperScissorsGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F749974A2227FA8000F85E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleAnimatedButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleAnimatedButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockPaperScissorsGame.app/RockPaperScissorsGame";
+			};
+			name = Debug;
+		};
+		F749974B2227FA8000F85E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleAnimatedButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleAnimatedButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockPaperScissorsGame.app/RockPaperScissorsGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74997202227FA7E00F85E40 /* Build configuration list for PBXProject "RockPaperScissorsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74997442227FA8000F85E40 /* Debug */,
+				F74997452227FA8000F85E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74997462227FA8000F85E40 /* Build configuration list for PBXNativeTarget "RockPaperScissorsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74997472227FA8000F85E40 /* Debug */,
+				F74997482227FA8000F85E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74997492227FA8000F85E40 /* Build configuration list for PBXNativeTarget "RockPaperScissorsGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F749974A2227FA8000F85E40 /* Debug */,
+				F749974B2227FA8000F85E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F749971D2227FA7E00F85E40 /* Project object */;
+}
